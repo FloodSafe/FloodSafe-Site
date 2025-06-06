@@ -36,7 +36,7 @@ nav ul li a{
 }
 nav ul :hover{
     color: white;
-    transform: scale(130%);
+    transform: scale(105%);
     
 }
 main{
@@ -68,7 +68,7 @@ main p {
 section{
     height: 100vh;
     width: 100%;
-     display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
@@ -80,7 +80,7 @@ section h1{
     margin: 1rem;
 }
 section h1:hover{
-    transform:scale(120%);
+    transform:scale(110%);
 }
 section p {
     color: rgb(0, 0, 0);
@@ -94,10 +94,6 @@ section p {
     
 }
 
-
-
-
-
 #problema-solucao{
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -108,8 +104,6 @@ section p {
     background-position: center;
 
 }
-
-
 #tecnologias{
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
