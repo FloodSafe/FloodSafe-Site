@@ -47,9 +47,13 @@ main{
     font-size: 1.3rem;
    gap: 2rem;
    background-color: rgb(233, 233, 233);
-   background-image: url(imagem3_carrossel.jpg);
-   background-repeat: no-repeat;
-  background-size: cover;
+   background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
+        url(imagem1_carrossel.jpg);
+   background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 1rem 1rem, cover;
+    background-position: center;
 }
 main img{
     width: 20rem;

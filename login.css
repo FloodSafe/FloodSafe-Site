@@ -49,9 +49,13 @@ main{
    gap: 0.5rem;
    flex-direction: column;
    background-color: rgb(233, 233, 233);
-   background-image: url(imagem1_carrossel.jpg);
-   background-repeat: no-repeat;
-  background-size: cover;
+  background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
+        url(imagem2_carrossel.jpg);
+   background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 1rem 1rem, cover;
+    background-position: center;
 }
 #login{
     border: 10px solid  rgb(35, 100, 165);
