@@ -67,7 +67,36 @@ main p {
 section{
     height: 100vh;
     width: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
 }
+section h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+section h1:hover{
+    transform:scale(120%);
+}
+section p {
+    color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+   border: 2px solid white;
+    background-color: white;
+    border-radius: 5rem;
+    padding: 3rem;
+    margin-right: 2rem;
+    
+}
+
+
+
+
+
 #problema-solucao{
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -78,11 +107,13 @@ section{
     background-position: center;
 
 }
+
+
 #tecnologias{
     background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
-        url(imagem1_carrossel.jpg);
+        url(imagem8_carrossel.jpg);
    background-repeat: no-repeat, repeat, no-repeat;
   background-size: cover, 1rem 1rem, cover;
     background-position: center;
@@ -130,6 +161,7 @@ section{
     background-position: center;
 
 }
+
 
 footer{
     width: 100%;
