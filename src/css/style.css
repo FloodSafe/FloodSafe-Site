@@ -46,14 +46,14 @@ main{
     align-items: center;
     justify-content: center;
     font-size: 1.3rem;
-   gap: 2rem;
-   background-color: rgb(233, 233, 233);
-   background-image: 
+    gap: 2rem;
+    background-color: rgb(233, 233, 233);
+    background-image: 
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
         url(/src/assets/imagem1_carrossel.jpg);
-   background-repeat: no-repeat, repeat, no-repeat;
-  background-size: cover, 1rem 1rem, cover;
+    background-repeat: no-repeat, repeat, no-repeat;
+    background-size: cover, 1rem 1rem, cover;
     background-position: center;
 }
 main img{
@@ -86,7 +86,7 @@ section p {
     color: rgb(0, 0, 0);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
-   border: 2px solid white;
+    border: 2px solid white;
     background-color: white;
     border-radius: 5rem;
     padding: 3rem;
@@ -103,8 +103,8 @@ section p {
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
         radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
         url(/src/assets/imagem2_carrossel.jpg);
-   background-repeat: no-repeat, repeat, no-repeat;
-  background-size: cover, 1rem 1rem, cover;
+    background-repeat: no-repeat, repeat, no-repeat;
+    background-size: cover, 1rem 1rem, cover;
     background-position: center;
 
 }
@@ -166,14 +166,13 @@ section p {
 
 footer{
     width: 100%;
-    position: fixed;
     bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: end;
-  background-color: rgb(35, 100, 165);
-  color: white;
-  padding: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background-color: rgb(35, 100, 165);
+    color: white;
+    padding: 1.5rem;
 }
 footer ul {
     display: flex;
