@@ -14,6 +14,7 @@ nav {
     padding: 1.5rem;
     background-color: rgb(35, 100, 165);
 }
+
 nav h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -181,4 +182,10 @@ footer ul {
     gap: 10rem
     ;
     list-style-type: none;
+}
+
+@media(width < 40rem){
+    main img {
+        width: 10rem;
+    }
 }
