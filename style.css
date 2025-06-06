@@ -64,6 +64,72 @@ main img{
 main p {
     color: white;
 }
+section{
+    height: 100vh;
+    width: 100%;
+}
+#problema-solucao{
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
+        url(imagem2_carrossel.jpg);
+   background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 1rem 1rem, cover;
+    background-position: center;
+
+}
+#tecnologias{
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
+        url(imagem1_carrossel.jpg);
+   background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 1rem 1rem, cover;
+    background-position: center;
+}
+#metas{
+   
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
+        url(imagem4_carrossel.jpg);
+   background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 1rem 1rem, cover;
+    background-position: center;
+}
+#publico-alvo{
+  
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
+        url(imagem5_carrossel.jpg);
+   background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 1rem 1rem, cover;
+    background-position: center;
+
+}
+#beneficios-oferecidos{
+   
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
+        url(imagem6_carrossel.jpg);
+   background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 1rem 1rem, cover;
+    background-position: center;
+
+}
+#como-impactamos{
+    
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        radial-gradient(rgba(255, 255, 255, 0.4) .06rem, transparent 1px),
+        url(imagem7_carrossel.jpg);
+   background-repeat: no-repeat, repeat, no-repeat;
+  background-size: cover, 1rem 1rem, cover;
+    background-position: center;
+
+}
 
 footer{
     width: 100%;
