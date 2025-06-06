@@ -62,6 +62,9 @@ main section{
     height: 100vh;
     width: 100%;
     color: white;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 main #S2{
     display: flex;
@@ -75,7 +78,18 @@ main #S2 input{
     border: transparent;
     height: 1.5rem;
 }
-
+main #S3{
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+}
+main #S3 input{
+    width: 10rem;
+    border-radius: 1rem;
+    border: transparent;
+    height: 1.5rem;
+}
 footer{
     width: 100%;
     position: fixed;
